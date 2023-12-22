@@ -1,0 +1,72 @@
+{
+  "HALProvider": {
+    "Encoders": {
+      "window": {
+        "visible": true
+      }
+    },
+    "Other Devices": {
+      "REV Color Sensor V3[1,82]": {
+        "header": {
+          "open": true
+        }
+      },
+      "SPARK MAX [10]": {
+        "header": {
+          "open": true
+        }
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/SmartDashboard/Extension": "Subsystem",
+      "/SmartDashboard/Grabber": "Subsystem",
+      "/SmartDashboard/Lift": "Subsystem",
+      "/SmartDashboard/SwerveSubsystem": "Subsystem"
+    }
+  },
+  "NetworkTables": {
+    "Persistent Values": {
+      "open": false
+    },
+    "Retained Values": {
+      "open": false
+    },
+    "transitory": {
+      "LiveWindow": {
+        ".status": {
+          "open": true
+        }
+      },
+      "Shuffleboard": {
+        ".metadata": {
+          "open": true
+        },
+        ".recording": {
+          "events": {
+            "Command executed": {
+              "open": true
+            },
+            "Command finished": {
+              "open": true
+            },
+            "Command initialized": {
+              "open": true
+            },
+            "Command interrupted": {
+              "open": true
+            },
+            "open": true
+          },
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "open": true
+      }
+    }
+  }
+}
